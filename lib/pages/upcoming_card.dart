@@ -7,7 +7,7 @@ class UpcomingCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      height: 150,
+      height: 152,
       padding: EdgeInsets.symmetric(vertical: 22, horizontal: 13),
       decoration: BoxDecoration(
         color: Colors.blueAccent,
@@ -33,7 +33,7 @@ class UpcomingCard extends StatelessWidget {
                 child: Text(
                   "Dr. krish Chaudhary",
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 15,
                     fontWeight: FontWeight.bold,
                     color: Colors.white
                   ),
@@ -46,7 +46,7 @@ class UpcomingCard extends StatelessWidget {
                   fontSize: 15
                 ),
               ),
-              SizedBox(height: 10,),
+              SizedBox(height: 12,),
               Container(
                 padding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
                 decoration: BoxDecoration(
@@ -72,7 +72,7 @@ class UpcomingCard extends StatelessWidget {
                     ),
                     Text(
                       "14:30 - 15:30", style: TextStyle(
-                      fontSize: 16,
+                      fontSize: 15,
                       color: Colors.white
                     ),
                     ),
